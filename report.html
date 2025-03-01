@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zone Wise Report</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="report.css">
+</head>
+<body class="flex flex-col items-center gap-[50px] py-[20px]">
+    <div class="p-[20px] flex flex-col gap-[20px] items-center">
+        <h1 class="font-semibold text-[24px]">Zone Wise Report</h1>
+
+        <table class="">
+            <thead class="bg-blue-500 text-white">
+                <tr>
+                    <th>Zone Name</th>
+                    <th>Date</th>
+                    <th>Customer Name</th>
+                    <th>Bill #</th>
+                    <th>CTN</th>
+                    <th>DZN</th>
+                    <th>Pcs</th>
+                    <th>Avg. Amount</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>North</td>
+                    <td>2025-02-25</td>
+                    <td>Ali Traders</td>
+                    <td>1001</td>
+                    <td>10</td>
+                    <td>50</td>
+                    <td>600</td>
+                    <td>12,500</td>
+                </tr>
+
+                <tr>
+                    <td>South</td>
+                    <td>2025-09-26</td>
+                    <td>Khan Mart</td>
+                    <td>1002</td>
+                    <td>8</td>
+                    <td>30</td>
+                    <td>450</td>
+                    <td>9,800</td>
+                </tr>
+
+                <tr>
+                    <td colspan="4"></td>
+                    <td>Sum</td>
+                    <td>Sum</td>
+                    <td>Sum</td>
+                    <td>Sum</td>
+                </tr>
+
+                <tr>
+                    <td colspan="4"></td>
+                    <td>Grand Total</td>
+                    <td>Grand Total</td>
+                    <td>Grand Total</td>
+                    <td>Grand Total</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="flex justify-center items-center">
+            <button type="button" class="bg-blue-500 py-[8px] px-[15px] rounded-[5px] text-white"><a href="">Print</a></button>
+        </div>
+
+        
+    </div>
+</body>
+</html>
